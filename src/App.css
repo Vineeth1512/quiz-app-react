@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&family=Caveat+Brush&family=Poppins:wght@600&display=swap');
+
+body {
+    background-color:#54c3ef;
+    margin: 0;
+    padding: 0;
+
+}
+
+#quiz-app {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto; 
+}
+
+h1 {
+
+    text-align: center;
+    color: #fad744;
+    font-family: Caveat Brush;
+    font-size: 60px;
+}
+
+.quiz-container {
+    display: flex;
+    justify-content: center;
+}
+.submit-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c29d06;
+    padding: 5px  15px;
+    border: 0;
+    border-radius: 8px;
+    margin-left: 43%;
+    margin-bottom: 10px;
+}
+.submit-btn:hover{
+    background-color: #2b3252;
+    box-shadow: 0 0 20px #c29d06
+    
+}
+
+#score {
+    margin: 2px;
+
+}
+
+.option-wrapper {
+    margin-top: 5px;
+}
+
+span {
+    color: #fad744;
+}
+
+.question {
+    color: #fad744;
+}
+
+hr {
+    border: 1px solid #fad744;
+
+}
+
+#questions-content {
+    
+    max-width: 500px;
+    width: 100%;
+    background-color: #2b3252;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 40px 80px rgba(0, 0, 0, 0.1);
+    
+
+}
+
+
+#score-content {
+    flex: 1;
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    background-color: rgb(211, 199, 199);
+    max-width: 120px;
+    max-height: 120px;
+    margin-left: 5px;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+
+}
